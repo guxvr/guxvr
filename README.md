@@ -1,16 +1,44 @@
-## Hi there 👋
+<h1 align="center">
+  <img 
+    src="https://readme-typing-svg.herokuapp.com/?font=Quicksand&size=32&center=true&vCenter=true&width=650&height=60&duration=1500&pause=500&lines=;I'm+Gustavo.&color=#42f5e0" 
+    alt="Typing SVG" 
+  />
+</h1>
 
-<!--
-**guxvr/guxvr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+* Graduando em engenharia de software pela Universidade de Brasília (UnB). Busco me especializar nas áreas de **Desenvolvimento de Software**, **Análise de Dados** e **Engenharia de Dados**.
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Tecnologias e Ferramentas
+
+#### **Backend**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+
+#### **Frontend & UI/UX**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+#### **DevOps & Ferramentas**
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Scrum](https://img.shields.io/badge/Scrum-000000?style=for-the-badge&logo=scrum&logoColor=white)
+
+* **Práticas & Frameworks:** Scrum, XP (Extreme Programming), Engenharia de Requisitos, CI/CD (GitHub Actions), Prototipagem em UI/UX (Figma).
+
+---
+
+### 📫 Contato
+
+* 💼 [LinkedIn](https://www.linkedin.com/in/gustavo-xavier-evangelista-bb4550415)
+* ✉️ guhxe32@gmail.com
+
+---
