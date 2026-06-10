@@ -32,7 +32,7 @@
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![Scrum](https://img.shields.io/badge/Scrum-000000?style=for-the-badge&logo=scrum&logoColor=white)
 
-* **Práticas & Frameworks:** Scrum, XP (Extreme Programming), Engenharia de Requisitos, CI/CD (GitHub Actions), Prototipagem em UI/UX (Figma).
+* **Práticas & Frameworks:** Scrum, XP (Extreme Programming), CI/CD (GitHub Actions), Prototipagem em UI/UX (Figma).
 
 ---
 
