@@ -43,7 +43,7 @@
 
 <a href="https://rocketleague.tracker.network/rocket-league/profile/epic/guxvr/overview">
   <img
-    src="https://raw.githubusercontent.com/guxvr/rocket_league_readme_stats/main/assets/rl-stats-3v3.svg"
+    src="https://raw.githubusercontent.com/guxvr/rocket_league_readme_stats/main/assets/rl-stats-3v3.svg?v=1"
     alt="Rocket League 3v3 Stats"
     width="495"
   />
