@@ -7,7 +7,7 @@
 
 ---
 
-* Graduando em engenharia de software pela Universidade de Brasília (UnB). Busco me especializar nas áreas de **Desenvolvimento de Software**, **Análise de Dados** e **Engenharia de Dados**.
+* Graduando em engenharia de software pela Universidade de Brasília (UnB). Tenho interesse nas áreas de **Desenvolvimento de Software**, **Análise de Dados**, **Engenharia de Dados** e **Cybersecurity**.
 ---
 
 ### 🛠️ Tecnologias e Ferramentas
