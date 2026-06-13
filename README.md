@@ -7,7 +7,7 @@
 
 ---
 
-* Currently pursuing a degree in software engineering at the University of Brasília (UnB). My areas of interest include **Software Development**, **Data Analysis**, **Data Engineering**, and **Cybersecurity**..
+* Currently pursuing a degree in software engineering at the University of Brasília (UnB). My areas of interest include **Software Development**, **Data Analysis**, **Data Engineering**, and **Cybersecurity**.
 ---
 
 ### Tech Stack
