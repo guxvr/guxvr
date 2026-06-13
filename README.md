@@ -7,10 +7,10 @@
 
 ---
 
-* Graduando em engenharia de software pela Universidade de Brasília (UnB). Tenho interesse nas áreas de **Desenvolvimento de Software**, **Análise de Dados**, **Engenharia de Dados** e **Cybersecurity**.
+* Currently pursuing a degree in software engineering at the University of Brasília (UnB). My areas of interest include **Software Development**, **Data Analysis**, **Data Engineering**, and **Cybersecurity**..
 ---
 
-### 🛠️ Tecnologias e Ferramentas
+### Tech Stack
 
 #### **Backend**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -34,14 +34,20 @@
 
 ---
 
-### 📫 Contato
+### Contact me
 
 * 💼 [LinkedIn](https://www.linkedin.com/in/gustavo-xavier-evangelista-bb4550415)
 * ✉️ guhxe32@gmail.com
 
 ---
+
+<h3 align="center">
+☛ <u>This is my personal web scraping project</u>
+</h3>
+
+
 <div align="center">
-<a href="https://rocketleague.tracker.network/rocket-league/profile/epic/guxvr/overview">
+<a href="https://github.com/guxvr/rocket_league_readme_stats">
   <img
     src="https://raw.githubusercontent.com/guxvr/rocket_league_readme_stats/main/assets/rl-stats-3v3.svg?v=1"
     alt="Rocket League 3v3 Stats"
