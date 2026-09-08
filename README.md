@@ -7,7 +7,24 @@
 
 ---
 
-* Currently pursuing a degree in software engineering at the University of Brasília (UnB). My areas of interest include **Software Development**, **Data Analysis**, **Data Engineering**, and **Cybersecurity**.
+<p align="center">
+  <a href="https://guxvr.github.io/guxvr/"><strong>Open my portfolio →</strong></a>
+</p>
+
+* Software Engineering student at the University of Brasília (UnB), focused on **Artificial Intelligence**, **Data**, and **Software Engineering**.
+
+---
+
+### Selected work
+
+* **BloodMNIST model comparison** — reproducible PyTorch experiment comparing logistic regression, a compact CNN, and ResNet18; the best model reached **98.19% macro F1**.
+* **[AI and misinformation](https://github.com/guxvr/IA1-2026-2)** — academic article examining AI-driven misinformation in public health and elections through empirical evidence and a sociotechnical perspective.
+* **[CoOps](https://github.com/unb-mds/2025-2-Squad-01)** — GitHub collaboration analytics with a Medallion data pipeline, D3.js visualizations, and AI-generated insights.
+* **[Hindsight](https://github.com/HeitorM50/OsBiruBob)** — local observability for coding agents, with deterministic recommendations validated through A/B testing.
+* **[Wikirace](https://github.com/eda2-2026/G20_Grafos_EDA2-2026.1)** — bidirectional BFS over live Wikipedia links, with asynchronous batching and interactive graph visualization.
+* **[Internet Collapse Simulator](https://github.com/projeto-de-algoritmos-2026/G10_Grafos_PA-26.2)** — interactive comparison of shortest-path algorithms and network resilience across a global cable topology.
+* **[Crusty](https://github.com/Bappoz/Crusty)** — C subset compiler written in Rust, with TAC optimizations and a native x86-64 backend.
+
 ---
 
 ### Tech Stack
@@ -34,7 +51,7 @@
 
 ---
 
-### Contact me
+### Contact
 
 * 💼 [LinkedIn](https://www.linkedin.com/in/gustavo-xavier-evangelista-bb4550415)
 * ✉️ guhxe32@gmail.com
