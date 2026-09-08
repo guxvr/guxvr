@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">GX monogram</title>
+  <desc id="desc">The initials G and X built as connected paths in a graph.</desc>
+  <path d="M12 2h40l10 10v40L52 62H12L2 52V12Z" fill="#10201d"/>
+  <path d="M12 2h40l10 10v40L52 62H12L2 52V12Z" fill="none" stroke="#77f2c1" stroke-opacity=".42" stroke-width="1.5"/>
+  <g fill="none" stroke="#f4f7ee" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M28 18h-7c-7 0-11 5.3-11 14s4 14 11 14h8V33h-8"/>
+    <path d="m36 18 18 28M54 18 36 46"/>
+  </g>
+  <g fill="#d7ff67">
+    <rect x="26" y="16" width="4" height="4" transform="rotate(45 28 18)"/>
+    <rect x="43" y="30" width="4" height="4" transform="rotate(45 45 32)"/>
+    <rect x="8" y="30" width="4" height="4" transform="rotate(45 10 32)"/>
+  </g>
+</svg>
