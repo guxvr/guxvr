@@ -15,12 +15,22 @@
 
 ---
 
+### Latest achievement
+
+🏆 **Winner — IBM TechXchange 2026 Pre-conference Dev Day Hackathon**
+
+As part of **OsBiruBob**, I helped build [Hindsight](https://github.com/HeitorM50/OsBiruBob), an offline analyzer for IBM Bob sessions that identifies context waste and validates configuration improvements through A/B experiments. Our victory earned the team an invitation to **IBM TechXchange 2026**, taking place in Atlanta from October 26–29, 2026.
+
+[Read the announcement from FCTE/UnB →](https://www.instagram.com/p/DeeXxSCtfBp/)
+
+---
+
 ### Selected work
 
 * **BloodMNIST model comparison** — reproducible PyTorch experiment comparing logistic regression, a compact CNN, and ResNet18; the best model reached **98.19% macro F1**.
 * **[AI and misinformation](https://github.com/guxvr/IA1-2026-2)** — academic article examining AI-driven misinformation in public health and elections through empirical evidence and a sociotechnical perspective.
 * **[CoOps](https://github.com/unb-mds/2025-2-Squad-01)** — GitHub collaboration analytics with a Medallion data pipeline, D3.js visualizations, and AI-generated insights.
-* **[Hindsight](https://github.com/HeitorM50/OsBiruBob)** — local observability for coding agents, with deterministic recommendations validated through A/B testing.
+* **[Hindsight](https://github.com/HeitorM50/OsBiruBob)** — winner of the IBM TechXchange 2026 Pre-conference Dev Day Hackathon; local observability for coding agents, with deterministic recommendations validated through A/B testing.
 * **[Wikirace](https://github.com/eda2-2026/G20_Grafos_EDA2-2026.1)** — bidirectional BFS over live Wikipedia links, with asynchronous batching and interactive graph visualization.
 * **[Internet Collapse Simulator](https://github.com/projeto-de-algoritmos-2026/G10_Grafos_PA-26.2)** — interactive comparison of shortest-path algorithms and network resilience across a global cable topology.
 * **[Crusty](https://github.com/Bappoz/Crusty)** — C subset compiler written in Rust, with TAC optimizations and a native x86-64 backend.
@@ -55,20 +65,3 @@
 
 * 💼 [LinkedIn](https://www.linkedin.com/in/gustavo-xavier-evangelista-bb4550415)
 * ✉️ guhxe32@gmail.com
-
----
-
-<h3 align="center">
-☛ <u>This is my personal web scraping project</u>
-</h3>
-
-
-<div align="center">
-<a href="https://github.com/guxvr/rocket_league_readme_stats">
-  <img
-    src="https://raw.githubusercontent.com/guxvr/rocket_league_readme_stats/main/assets/rl-stats-3v3.svg?v=1"
-    alt="Rocket League 3v3 Stats"
-    width="495"
-  />
-</a>
-<div align="center">
