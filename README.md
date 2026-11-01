@@ -63,5 +63,5 @@ As part of **OsBiruBob**, I helped build [Hindsight](https://github.com/HeitorM5
 
 ### Contact
 
-* 💼 [LinkedIn](https://www.linkedin.com/in/gustavo-xavier-evangelista-bb4550415)
+* 💼 [LinkedIn](https://www.linkedin.com/in/gustavo-evangelista-bb4550415)
 * ✉️ guhxe32@gmail.com
