@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Currículo de Gustavo Xavier Evangelista — Inteligência Artificial, Dados e Engenharia de Software." />
+    <title>Gustavo Xavier Evangelista — Currículo</title>
+    <style>
+      :root {
+        --ink: #10201d;
+        --muted: #53635e;
+        --line: #ccd5d1;
+        --accent: #0b5a4b;
+      }
+
+      * { box-sizing: border-box; }
+
+      @page { size: A4; margin: 0; }
+
+      html { background: #dde4e1; }
+
+      body {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto;
+        padding: 9mm 13mm 8mm;
+        background: #fff;
+        color: var(--ink);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8.8pt;
+        line-height: 1.27;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a { color: inherit; text-decoration: none; }
+
+      .header {
+        padding-bottom: 3.2mm;
+        border-bottom: 1.5px solid var(--ink);
+      }
+
+      h1 { margin: 0; font-size: 20.5pt; line-height: 1; letter-spacing: -.5px; }
+      .headline { margin: 1.5mm 0 0; color: var(--accent); font-size: 9.8pt; font-weight: 700; }
+
+      .contact {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .8mm 2.7mm;
+        margin-top: 1.8mm;
+        color: var(--muted);
+        font-size: 7.7pt;
+      }
+      .contact span:not(:last-child)::after,
+      .contact a:not(:last-child)::after { content: "  |"; color: var(--line); }
+      .contact a { border-bottom: .5px solid transparent; }
+      .contact a:hover { border-color: currentColor; }
+
+      section { margin-top: 3mm; }
+      h2 {
+        margin: 0 0 1.5mm;
+        padding-bottom: .7mm;
+        border-bottom: 1px solid var(--line);
+        color: var(--accent);
+        font-size: 8.3pt;
+        line-height: 1;
+        letter-spacing: .35px;
+        text-transform: uppercase;
+      }
+
+      p { margin: 0; }
+      .summary { max-width: 180mm; color: #263b35; }
+
+      .skills { display: grid; gap: .5mm; }
+      .skill strong { font-size: 8.5pt; }
+      .skill span { color: var(--muted); font-size: 8.3pt; }
+
+      h3 { margin: 0; font-size: 9.6pt; line-height: 1.2; }
+      .period, .tech { display: block; margin-top: .5mm; color: var(--muted); font-size: 7.8pt; }
+      .education-detail { margin-top: .45mm; color: var(--muted); font-size: 8.1pt; }
+
+      .project { margin-top: 1.9mm; break-inside: avoid; }
+      .project:first-of-type { margin-top: 0; }
+      .project-link { color: var(--accent); font-size: 7.7pt; font-weight: 700; }
+      ul { margin: .7mm 0 0; padding-left: 4.2mm; }
+      li { margin: .3mm 0 0; padding-left: .7mm; }
+      li::marker { color: var(--accent); }
+
+      .research-row p { margin-top: .5mm; color: var(--muted); }
+      .research-row .project-link { display: inline-block; margin-top: .5mm; }
+
+      @media print {
+        html { background: #fff; }
+        body { margin: 0; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Gustavo Xavier Evangelista</h1>
+      <p class="headline">Inteligência Artificial | Ciência de Dados | Engenharia de Software</p>
+      <div class="contact" aria-label="Contato">
+        <span>Brasília, DF</span>
+        <a href="tel:+5561998319663">(61) 99831-9663</a>
+        <a href="mailto:guhxe32@gmail.com">guhxe32@gmail.com</a>
+        <a href="https://github.com/guxvr">github.com/guxvr</a>
+        <a href="https://guxvr.github.io/guxvr/">guxvr.github.io/guxvr</a>
+        <a href="https://www.linkedin.com/in/gustavo-evangelista-bb4550415/">linkedin.com/in/gustavo-evangelista-bb4550415</a>
+      </div>
+    </header>
+
+    <main>
+      <section aria-labelledby="resumo">
+        <h2 id="resumo">Resumo</h2>
+        <p class="summary">
+          Estudante de Engenharia de Software na Universidade de Brasília, candidato ao iFuture 2027 com interesse
+          prioritário em Análise e Ciência de Dados e Engenharia de Software. Desenvolvo soluções de inteligência
+          artificial, modelos de Machine Learning, pipelines de dados e ferramentas orientadas a métricas. Em projetos
+          recentes, alcancei 98,19% de F1 macro no BloodMNIST e contribuí para reduzir uma extração de dados de 4 horas
+          para 30 segundos. Atuo como monitor de Probabilidade e Estatística e tenho perfil curioso, colaborativo e
+          orientado à resolução prática de problemas.
+        </p>
+      </section>
+
+      <section aria-labelledby="competencias">
+        <h2 id="competencias">Competências técnicas</h2>
+        <div class="skills">
+          <div class="skill"><strong>Linguagens:</strong> <span>Python, SQL (PostgreSQL), TypeScript, C, Rust, HTML e CSS</span></div>
+          <div class="skill"><strong>IA e Dados:</strong> <span>Machine Learning, PyTorch, Pandas, scikit-learn, MedMNIST, análise de dados, métricas e visualização com D3.js</span></div>
+          <div class="skill"><strong>Engenharia de Software:</strong> <span>desenvolvimento back-end e front-end, Git, GitHub Actions, Docker, FastAPI, APIs, integração contínua, testes automatizados, Scrum e Extreme Programming</span></div>
+        </div>
+      </section>
+
+      <section aria-labelledby="formacao">
+        <h2 id="formacao">Formação acadêmica</h2>
+        <div class="education-row">
+          <h3>Bacharelado em Engenharia de Software — Universidade de Brasília (UnB)</h3>
+          <span class="period">2024 — conclusão prevista em dezembro de 2028</span>
+        </div>
+        <p class="education-detail">Fundamentos de IA, aprendizado de máquina, algoritmos, grafos, engenharia de dados e desenvolvimento colaborativo de software.</p>
+      </section>
+
+      <section aria-labelledby="experiencia">
+        <h2 id="experiencia">Experiência</h2>
+        <h3>Monitorias acadêmicas — Universidade de Brasília (UnB)</h3>
+        <p class="education-detail"><strong>Probabilidade e Estatística Aplicada à Engenharia</strong> — agosto de 2026 até o momento</p>
+        <p class="education-detail"><strong>Teoria de Eletrônica Digital</strong> — agosto a dezembro de 2025</p>
+        <p class="education-detail"><strong>Orientação a Objetos</strong> — março a julho de 2024</p>
+      </section>
+
+      <section aria-labelledby="projetos">
+        <h2 id="projetos">Projetos selecionados</h2>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Classificação de células sanguíneas — BloodMNIST</h3>
+            <span class="tech">Python · PyTorch · ResNet18</span>
+          </div>
+          <ul>
+            <li>Implementei pipeline reprodutível de Machine Learning, CNN compacta, metodologia experimental e geração automatizada de resultados.</li>
+            <li>ResNet18 atingiu <strong>98,19% de F1 macro</strong>; a CNN chegou a 97,61% usando somente 2,6% dos parâmetros.</li>
+          </ul>
+          <a class="project-link" href="https://github.com/HeitorM50/IA2-2026.2">github.com/HeitorM50/IA2-2026.2</a>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>CoOps — análise de colaboração no GitHub</h3>
+            <span class="tech">Python · GraphQL · React · D3.js</span>
+          </div>
+          <ul>
+            <li>Contribuí em equipe para uma plataforma de análise de dados com pipeline Medallion, visualizações interativas e explicações geradas por IA.</li>
+            <li>Otimizei a extração de dados de <strong>4 horas para 30 segundos</strong>, ampliei o suporte para mais de 90 linguagens e desenvolvi testes e CI.</li>
+          </ul>
+          <a class="project-link" href="https://github.com/unb-mds/2025-2-Squad-01">github.com/unb-mds/2025-2-Squad-01</a>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Hindsight — observabilidade para agentes de código</h3>
+            <span class="tech">TypeScript · React · Agentes de IA</span>
+          </div>
+          <ul>
+            <li>Implementei a extração de chamadas de ferramentas e recomendações determinísticas para reduzir desperdício de contexto em agentes de IA.</li>
+            <li>Experimentos A/B mediram <strong>19,7% menos custo de API</strong> e 25,9% menos overhead fixo.</li>
+          </ul>
+          <a class="project-link" href="https://github.com/HeitorM50/OsBiruBob">github.com/HeitorM50/OsBiruBob</a>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Algoritmos em grafos — Wikirace e Internet Collapse</h3>
+            <span class="tech">Python · NetworkX · FastAPI · Leaflet</span>
+          </div>
+          <ul>
+            <li>Desenvolvi busca BFS bidirecional sobre links da Wikipedia, com consultas assíncronas em lote, cache e controle de rate limit.</li>
+            <li>Implementei simulação de redes com Dijkstra, Bellman-Ford e A*, análise de falhas e visualização de 100 nós e 180 conexões, aplicando algoritmos a problemas de roteamento.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section aria-labelledby="pesquisa">
+        <h2 id="pesquisa">Pesquisa acadêmica</h2>
+        <div class="research-row">
+          <div>
+            <h3>IA e desinformação: saúde pública e eleições</h3>
+            <p>Artigo individual com revisão bibliográfica, matriz de evidências e análise crítica da cadeia sociotécnica.</p>
+          </div>
+          <a class="project-link" href="https://guxvr.github.io/guxvr/assets/docs/artigo-ia-desinformacao.pdf">Ler artigo</a>
+        </div>
+      </section>
+
+      <section aria-labelledby="certificacoes">
+        <h2 id="certificacoes">Certificações</h2>
+        <h3>Agentic LLMs: Fundamentos e Aplicações</h3>
+      </section>
+    </main>
+
+  </body>
+</html>
