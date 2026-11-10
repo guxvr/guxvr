@@ -112,12 +112,11 @@
       <section aria-labelledby="resumo">
         <h2 id="resumo">Resumo</h2>
         <p class="summary">
-          Estudante de Engenharia de Software na Universidade de Brasília, candidato ao iFuture 2027 com interesse
-          prioritário em Análise e Ciência de Dados e Engenharia de Software. Desenvolvo soluções de inteligência
-          artificial, modelos de Machine Learning, pipelines de dados e ferramentas orientadas a métricas. Em projetos
-          recentes, alcancei 98,19% de F1 macro no BloodMNIST e contribuí para reduzir uma extração de dados de 4 horas
-          para 30 segundos. Atuo como monitor de Probabilidade e Estatística e tenho perfil curioso, colaborativo e
-          orientado à resolução prática de problemas.
+          Estudante de Engenharia de Software na Universidade de Brasília, certificado IBM Artificial Intelligence
+          v1 — Associate e vencedor do IBM TechXchange 2026 Pre-conference Dev Day Hackathon. Desenvolvo soluções de
+          Machine Learning e GenAI com experimentação reprodutível: classificação com PyTorch, detecção de anomalias,
+          RAG com busca vetorial e observabilidade para agentes. Participei do IBM TechXchange 2026 em Atlanta e atuo
+          como monitor de Probabilidade e Estatística.
         </p>
       </section>
 
@@ -125,7 +124,7 @@
         <h2 id="competencias">Competências técnicas</h2>
         <div class="skills">
           <div class="skill"><strong>Linguagens:</strong> <span>Python, SQL (PostgreSQL), TypeScript, C, Rust, HTML e CSS</span></div>
-          <div class="skill"><strong>IA e Dados:</strong> <span>Machine Learning, PyTorch, Pandas, scikit-learn, MedMNIST, análise de dados, métricas e visualização com D3.js</span></div>
+          <div class="skill"><strong>IA e Dados:</strong> <span>Machine Learning, GenAI, RAG, LLMs, embeddings, FAISS, PyTorch, scikit-learn, Pandas, séries temporais e avaliação de modelos</span></div>
           <div class="skill"><strong>Engenharia de Software:</strong> <span>desenvolvimento back-end e front-end, Git, GitHub Actions, Docker, FastAPI, APIs, integração contínua, testes automatizados, Scrum e Extreme Programming</span></div>
         </div>
       </section>
@@ -147,71 +146,63 @@
         <p class="education-detail"><strong>Orientação a Objetos</strong> — março a julho de 2024</p>
       </section>
 
+      <section aria-labelledby="conquistas">
+        <h2 id="conquistas">Conquistas e certificações</h2>
+        <p><strong>1º lugar — IBM TechXchange 2026 Pre-conference Dev Day Hackathon:</strong> desenvolvimento do Hindsight com a equipe OsBiruBob; participação no IBM TechXchange 2026, em Atlanta.</p>
+        <p class="education-detail"><strong>IBM Artificial Intelligence v1 — Associate</strong> — certificação obtida por exame presencial supervisionado · <a class="project-link" href="https://www.credly.com/badges/b7a9377f-bfa8-40fb-81f2-3b67e5ed50d9/linked_in_profile">Credly</a> · <strong>Agentic LLMs: Fundamentos e Aplicações</strong> — UnB.</p>
+      </section>
+
       <section aria-labelledby="projetos">
         <h2 id="projetos">Projetos selecionados</h2>
 
         <article class="project">
           <div class="project-head">
-            <h3>Classificação de células sanguíneas — BloodMNIST</h3>
-            <span class="tech">Python · PyTorch · ResNet18</span>
+            <h3>Artigos de Inteligência Artificial II — experimentação em ML e RAG</h3>
+            <span class="tech">PyTorch · LSTM · E5 · FAISS · Qwen2.5 · avaliação</span>
           </div>
           <ul>
-            <li>Implementei pipeline reprodutível de Machine Learning, CNN compacta, metodologia experimental e geração automatizada de resultados.</li>
-            <li>ResNet18 atingiu <strong>98,19% de F1 macro</strong>; a CNN chegou a 97,61% usando somente 2,6% dos parâmetros.</li>
+            <li><strong>Artigo 1:</strong> comparação entre regressão logística, CNN e ResNet18 no BloodMNIST; melhor resultado de <strong>98,19% de F1 macro</strong>.</li>
+            <li><strong>Artigo 2:</strong> limiar, PCA e autoencoder LSTM sobre 23.073 janelas OBD-II; implementei treino, calibração, métricas e modelos.</li>
+            <li><strong>Artigo 3:</strong> sete configurações de chunking para RAG; slides lideraram MRR@5 (0,87), 512/0 liderou Recall@5 (0,94) e 20% de sobreposição não mostrou vantagem consistente.</li>
           </ul>
           <a class="project-link" href="https://github.com/HeitorM50/IA2-2026.2">github.com/HeitorM50/IA2-2026.2</a>
         </article>
 
         <article class="project">
           <div class="project-head">
-            <h3>CoOps — análise de colaboração no GitHub</h3>
-            <span class="tech">Python · GraphQL · React · D3.js</span>
+            <h3>Hindsight — observabilidade para agentes de código</h3>
+            <span class="tech">TypeScript · React · agentes de IA · experimentação A/B</span>
           </div>
           <ul>
-            <li>Contribuí em equipe para uma plataforma de análise de dados com pipeline Medallion, visualizações interativas e explicações geradas por IA.</li>
-            <li>Otimizei a extração de dados de <strong>4 horas para 30 segundos</strong>, ampliei o suporte para mais de 90 linguagens e desenvolvi testes e CI.</li>
+            <li>Implementei extração de tool calls e recomendações determinísticas para diagnosticar desperdício de contexto e gerar configurações melhores.</li>
+            <li>O experimento A/B mediu <strong>25,9% menos overhead fixo</strong> e <strong>19,7% menos custo de API</strong>; projeto vencedor do hackathon IBM.</li>
+          </ul>
+          <a class="project-link" href="https://github.com/guxvr/OsBiruBob">github.com/guxvr/OsBiruBob</a>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>CoOps — análise de colaboração no GitHub</h3>
+            <span class="tech">Python · GraphQL · React · D3.js · GenAI</span>
+          </div>
+          <ul>
+            <li>Plataforma com pipeline Medallion, métricas de colaboração, visualizações e explicações geradas por IA.</li>
+            <li>Otimizei a extração de dados de <strong>4 horas para 30 segundos</strong>, ampliei suporte para mais de 90 linguagens e desenvolvi testes e CI.</li>
           </ul>
           <a class="project-link" href="https://github.com/unb-mds/2025-2-Squad-01">github.com/unb-mds/2025-2-Squad-01</a>
         </article>
 
         <article class="project">
           <div class="project-head">
-            <h3>Hindsight — observabilidade para agentes de código</h3>
-            <span class="tech">TypeScript · React · Agentes de IA</span>
+            <h3>Projetos acadêmicos — Wikirace, Internet Collapse e RankLab</h3>
+            <span class="tech">Python · grafos · dividir e conquistar · FastAPI</span>
           </div>
           <ul>
-            <li>Implementei a extração de chamadas de ferramentas e recomendações determinísticas para reduzir desperdício de contexto em agentes de IA.</li>
-            <li>Experimentos A/B mediram <strong>19,7% menos custo de API</strong> e 25,9% menos overhead fixo.</li>
+            <li>Busca BFS bidirecional sobre a Wikipedia e simulador de resiliência que compara Dijkstra, Bellman-Ford e A* em uma malha global.</li>
+            <li>RankLab audita rankings e decisões multicritério com inversões de Kendall, par mais próximo, seleção determinística e análise de sensibilidade.</li>
           </ul>
-          <a class="project-link" href="https://github.com/HeitorM50/OsBiruBob">github.com/HeitorM50/OsBiruBob</a>
+          <a class="project-link" href="https://github.com/projeto-de-algoritmos-2026/G10_Dividir-e-Conquistar_PA-26.2">github.com/projeto-de-algoritmos-2026/G10_Dividir-e-Conquistar_PA-26.2</a>
         </article>
-
-        <article class="project">
-          <div class="project-head">
-            <h3>Algoritmos em grafos — Wikirace e Internet Collapse</h3>
-            <span class="tech">Python · NetworkX · FastAPI · Leaflet</span>
-          </div>
-          <ul>
-            <li>Desenvolvi busca BFS bidirecional sobre links da Wikipedia, com consultas assíncronas em lote, cache e controle de rate limit.</li>
-            <li>Implementei simulação de redes com Dijkstra, Bellman-Ford e A*, análise de falhas e visualização de 100 nós e 180 conexões, aplicando algoritmos a problemas de roteamento.</li>
-          </ul>
-        </article>
-      </section>
-
-      <section aria-labelledby="pesquisa">
-        <h2 id="pesquisa">Pesquisa acadêmica</h2>
-        <div class="research-row">
-          <div>
-            <h3>IA e desinformação: saúde pública e eleições</h3>
-            <p>Artigo individual com revisão bibliográfica, matriz de evidências e análise crítica da cadeia sociotécnica.</p>
-          </div>
-          <a class="project-link" href="https://guxvr.github.io/guxvr/assets/docs/artigo-ia-desinformacao.pdf">Ler artigo</a>
-        </div>
-      </section>
-
-      <section aria-labelledby="certificacoes">
-        <h2 id="certificacoes">Certificações</h2>
-        <h3>Agentic LLMs: Fundamentos e Aplicações</h3>
       </section>
     </main>
 
