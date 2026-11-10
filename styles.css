@@ -224,6 +224,14 @@ svg { display: block; }
 .achievement-details dd { margin: 0; overflow-wrap: anywhere; color: var(--text); font-size: 12px; line-height: 1.65; }
 .achievement-links { display: flex; align-items: center; flex-wrap: wrap; gap: 24px; }
 .achievement-links .text-link { margin-top: 0; }
+.credential-panel { position: relative; display: grid; grid-template-columns: auto 1fr auto; gap: 28px; align-items: center; margin-top: 22px; padding: 28px 32px; overflow: hidden; border: 1px solid var(--line); background: var(--surface); color: var(--text); text-decoration: none; transition: transform 220ms ease, box-shadow 220ms ease; }
+.credential-panel:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.credential-mark { display: grid; place-content: center; width: 82px; height: 82px; border: 1px solid rgba(119,242,193,.28); background: #083d34; color: #eef8f2; text-align: center; }
+.credential-mark strong { font-size: 24px; line-height: 1; letter-spacing: -.05em; }
+.credential-mark span { margin-top: 7px; color: var(--accent); font: 500 9px var(--mono); letter-spacing: .16em; }
+.credential-copy h3 { margin: 7px 0 6px; font-size: 22px; letter-spacing: -.025em; }
+.credential-copy p:last-child { margin: 0; color: var(--muted); font-size: 13px; }
+.credential-link { color: var(--primary); font-size: 12px; font-weight: 800; white-space: nowrap; }
 
 .section-heading { display: grid; grid-template-columns: 1.3fr .7fr; gap: 70px; align-items: end; margin-bottom: 58px; }
 .section-heading h2, .about-title h2, .contact-panel h2 { font-size: clamp(38px, 4.4vw, 58px); }
@@ -235,6 +243,12 @@ svg { display: block; }
 .filter-chip.is-active { border-color: var(--text); background: var(--text); color: var(--bg); }
 .project-controls > p { margin: 0; color: var(--muted); font: 400 10px var(--mono); text-transform: uppercase; letter-spacing: .06em; white-space: nowrap; }
 .project-controls > p span { color: var(--primary); }
+.project-subsection-heading { display: grid; grid-template-columns: 1fr .8fr; gap: 42px; align-items: end; margin: 50px 0 24px; padding: 24px 0 18px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.project-controls + .project-subsection-heading { margin-top: 0; }
+.project-subsection-heading span { color: var(--primary); font: 500 9px var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+.project-subsection-heading h3 { margin: 7px 0 0; font-size: 25px; line-height: 1.1; letter-spacing: -.035em; }
+.project-subsection-heading p { max-width: 520px; margin: 0; color: var(--muted); font-size: 13px; }
+.project-subsection-heading-grid { grid-column: 1 / -1; margin-bottom: 0; }
 .project-featured { position: relative; display: grid; grid-template-columns: 1.05fr .95fr; min-height: 570px; overflow: hidden; border: 1px solid var(--line); background: var(--surface); box-shadow: var(--shadow); }
 .interactive-card::before { content: ""; position: absolute; z-index: 0; inset: 0; background: radial-gradient(430px circle at var(--spot-x, 50%) var(--spot-y, 50%), color-mix(in srgb, var(--mint) 8%, transparent), transparent 58%); opacity: 0; pointer-events: none; transition: opacity 260ms ease; }
 .interactive-card:hover::before { opacity: 1; }
@@ -271,6 +285,7 @@ svg { display: block; }
 .chart-note span + span { border-left: 1px solid rgba(255,255,255,.12); }
 
 .project-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 24px; }
+.research-grid { margin-top: 24px; }
 .project-card { overflow: hidden; border: 1px solid var(--line); background: var(--surface); transition: transform 220ms ease, box-shadow 220ms ease; }
 .project-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
 .card-visual { min-height: 290px; padding: 34px; background: var(--surface-soft); }
@@ -310,6 +325,8 @@ svg { display: block; }
 .project-card-small .text-link { margin-top: auto; padding-top: 28px; }
 .project-card-small .article-links { margin-top: auto; padding-top: 28px; }
 .project-card-small .article-links .text-link { margin-top: 0; padding-top: 0; }
+.article-card { min-height: 610px; }
+.article-card .card-result { border-left: 2px solid var(--accent); padding: 16px 0 0 17px; }
 .card-index { padding: 16px 38px 0; color: var(--primary); font: 500 11px var(--mono); }
 .project-card-wide { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr .92fr; min-height: 430px; }
 .project-card-wide .card-body { display: flex; flex-direction: column; justify-content: center; padding: 52px; }
@@ -377,6 +394,8 @@ svg { display: block; }
   .achievement-panel { grid-template-columns: 1fr; }
   .achievement-mark { min-height: 380px; }
   .achievement-details { grid-template-columns: 1fr 1fr; }
+  .credential-panel { grid-template-columns: auto 1fr; }
+  .credential-link { grid-column: 2; }
   .model-comparison { min-height: 470px; }
   .about-title { position: static; }
   .about-copy { max-width: 740px; }
@@ -419,6 +438,9 @@ svg { display: block; }
   .achievement-copy .achievement-lead { font-size: 17px; }
   .achievement-details { grid-template-columns: 1fr; }
   .achievement-links { align-items: flex-start; flex-direction: column; gap: 18px; }
+  .credential-panel { grid-template-columns: 1fr; padding: 25px; }
+  .credential-mark { width: 70px; height: 70px; }
+  .credential-link { grid-column: auto; }
   .section-heading { margin-bottom: 38px; }
   .project-controls { align-items: flex-start; flex-direction: column; margin-top: -8px; }
   .project-filters { width: 100%; flex-wrap: nowrap; overflow-x: auto; padding-bottom: 5px; scrollbar-width: none; }
@@ -427,6 +449,7 @@ svg { display: block; }
   .section-heading h2, .about-title h2 { font-size: 39px; }
   .project-content, .model-comparison { padding: 32px 25px; }
   .project-content h3 { font-size: 31px; }
+  .project-subsection-heading { grid-template-columns: 1fr; gap: 12px; margin-top: 38px; }
   .project-grid { grid-template-columns: 1fr; }
   .project-card-wide { grid-column: auto; grid-template-columns: 1fr; }
   .project-card-wide .card-body { padding: 36px 25px; }
@@ -437,6 +460,7 @@ svg { display: block; }
   .project-image { height: 240px; }
   .card-body { padding: 30px 25px; }
   .project-card-small { min-height: 390px; }
+  .article-card { min-height: 0; }
   .card-index { padding-left: 25px; }
   .about-copy .about-lead { font-size: 20px; }
   .stack { margin-top: 68px; }

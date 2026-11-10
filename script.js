@@ -210,6 +210,7 @@ if ('IntersectionObserver' in window) {
 // Project filters.
 const filterButtons = document.querySelectorAll('[data-filter]');
 const projects = [...document.querySelectorAll('[data-project]')];
+const projectHeadings = [...document.querySelectorAll('[data-project-heading]')];
 const projectCount = document.querySelector('[data-project-count]');
 let activeFilter = 'all';
 
@@ -242,6 +243,11 @@ filterButtons.forEach((button) => {
       } else {
         project.hidden = true;
       }
+    });
+
+    projectHeadings.forEach((heading) => {
+      const categories = heading.dataset.category.split(' ');
+      heading.hidden = activeFilter !== 'all' && !categories.includes(activeFilter);
     });
 
     if (projectCount) projectCount.textContent = visible;

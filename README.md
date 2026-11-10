@@ -19,7 +19,9 @@
 
 🏆 **Winner — IBM TechXchange 2026 Pre-conference Dev Day Hackathon**
 
-As part of **OsBiruBob**, I helped build [Hindsight](https://github.com/HeitorM50/OsBiruBob), an offline analyzer for IBM Bob sessions that identifies context waste and validates configuration improvements through A/B experiments. Our victory earned the team an invitation to **IBM TechXchange 2026**, taking place in Atlanta from October 26–29, 2026.
+As part of **OsBiruBob**, I helped build [Hindsight](https://github.com/guxvr/OsBiruBob), an offline analyzer for IBM Bob sessions that identifies context waste and validates configuration improvements through A/B experiments. After winning, I attended **IBM TechXchange 2026** in Atlanta, joining hands-on labs and technical sessions on AI and software engineering.
+
+I also earned the **IBM Artificial Intelligence v1 — Associate** certification through a proctored, in-person exam. [Verify the credential on Credly →](https://www.credly.com/badges/b7a9377f-bfa8-40fb-81f2-3b67e5ed50d9/linked_in_profile)
 
 [Read the announcement from FCTE/UnB →](https://www.instagram.com/p/DeeXxSCtfBp/)
 
@@ -27,12 +29,15 @@ As part of **OsBiruBob**, I helped build [Hindsight](https://github.com/HeitorM5
 
 ### Selected work
 
-* **BloodMNIST model comparison** — reproducible PyTorch experiment comparing logistic regression, a compact CNN, and ResNet18; the best model reached **98.19% macro F1**.
+* **[BloodMNIST model comparison](https://github.com/HeitorM50/IA2-2026.2/tree/main/artigo-1)** — reproducible PyTorch experiment comparing logistic regression, a compact CNN, and ResNet18; the best model reached **98.19% macro F1**.
+* **[Unsupervised sensor-fault detection](https://github.com/HeitorM50/IA2-2026.2/tree/main/artigo-2)** — statistical threshold, PCA, and LSTM autoencoder evaluated on 23,073 OBD-II windows; the experiment shows how aggregation design changes the model comparison.
+* **[Chunking strategies for Portuguese RAG](https://github.com/HeitorM50/IA2-2026.2/tree/main/artigo-3)** — seven E5/FAISS/Qwen2.5 configurations comparing structural and token-based chunking; slides led MRR@5 while 512/0 led Recall@5, with no consistent overlap advantage.
 * **[AI and misinformation](https://github.com/guxvr/IA1-2026-2)** — academic article examining AI-driven misinformation in public health and elections through empirical evidence and a sociotechnical perspective.
 * **[CoOps](https://github.com/unb-mds/2025-2-Squad-01)** — GitHub collaboration analytics with a Medallion data pipeline, D3.js visualizations, and AI-generated insights.
-* **[Hindsight](https://github.com/HeitorM50/OsBiruBob)** — winner of the IBM TechXchange 2026 Pre-conference Dev Day Hackathon; local observability for coding agents, with deterministic recommendations validated through A/B testing.
+* **[Hindsight](https://github.com/guxvr/OsBiruBob)** — winner of the IBM TechXchange 2026 Pre-conference Dev Day Hackathon; local observability for coding agents, with deterministic recommendations validated through A/B testing.
 * **[Wikirace](https://github.com/eda2-2026/G20_Grafos_EDA2-2026.1)** — bidirectional BFS over live Wikipedia links, with asynchronous batching and interactive graph visualization.
 * **[Internet Collapse Simulator](https://github.com/projeto-de-algoritmos-2026/G10_Grafos_PA-26.2)** — interactive comparison of shortest-path algorithms and network resilience across a global cable topology.
+* **[RankLab](https://github.com/projeto-de-algoritmos-2026/G10_Dividir-e-Conquistar_PA-26.2)** — auditable ranking and multicriteria-decision toolkit using divide-and-conquer algorithms, reproducible reports, and an interactive visualizer.
 * **[Crusty](https://github.com/Bappoz/Crusty)** — C subset compiler written in Rust, with TAC optimizations and a native x86-64 backend.
 
 ---
