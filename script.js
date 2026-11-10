@@ -15,17 +15,24 @@ const i18n = window.portfolioI18n;
 
 // Theme
 const themeToggle = document.querySelector('[data-theme-toggle]');
+const themeColor = document.querySelector('meta[name="theme-color"]');
 const savedTheme = safeStorage.get('portfolio-theme');
 const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+const syncThemeColor = () => {
+  themeColor?.setAttribute('content', root.dataset.theme === 'dark' ? '#17181c' : '#fff8f6');
+};
 
 if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
   root.dataset.theme = 'dark';
 }
+syncThemeColor();
 
 themeToggle?.addEventListener('click', () => {
   const nextTheme = root.dataset.theme === 'dark' ? 'light' : 'dark';
   root.dataset.theme = nextTheme;
   safeStorage.set('portfolio-theme', nextTheme);
+  syncThemeColor();
 });
 
 // Short loading sequence, shown once per browser session.
