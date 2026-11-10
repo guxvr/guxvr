@@ -49,6 +49,9 @@
     "Attendee · Atlanta, USA · October 26–29, 2026": "Participante · Atlanta, EUA · 26–29 de outubro de 2026",
     "FCTE/UnB announcement": "Anúncio da FCTE/UnB",
     "Explore Hindsight": "Conhecer o Hindsight",
+    "Atlanta · October 2026": "Atlanta · Outubro de 2026",
+    "At IBM TechXchange 2026.": "No IBM TechXchange 2026.",
+    "The hackathon-winning team in Atlanta.": "A equipe vencedora do hackathon em Atlanta.",
     "Professional certification": "Certificação profissional",
     "Earned through a proctored, in-person certification exam during IBM TechXchange 2026.": "Obtida em exame presencial supervisionado durante o IBM TechXchange 2026.",
     "Verify on Credly ↗": "Verificar no Credly ↗",
@@ -65,6 +68,9 @@
     "Research series": "Série de pesquisa",
     "Artificial Intelligence II": "Inteligência Artificial II",
     "Three reproducible studies moving from supervised learning to anomaly detection and retrieval-augmented generation.": "Três estudos reprodutíveis que avançam do aprendizado supervisionado à detecção de anomalias e à geração aumentada por recuperação.",
+    "Computer vision": "Visão computacional",
+    "Anomaly detection": "Detecção de anomalias",
+    "RAG and chunking": "RAG e chunking",
     "Applied AI · Computer vision": "IA aplicada · Visão computacional",
     "Article 1 · Computer vision": "Artigo 1 · Visão computacional",
     "Blood cell classification": "Classificação de células sanguíneas",
@@ -212,7 +218,11 @@
     "Macro F1 comparison across three models": "Comparação do F1 macro entre três modelos",
     "Shortest path found between Wikipedia articles": "Menor caminho encontrado entre artigos da Wikipedia",
     "Interactive world map with cable routes and connection points": "Mapa mundial interativo com rotas de cabos e pontos de conexão",
-    "Verify IBM Artificial Intelligence v1 Associate credential on Credly": "Verificar a credencial IBM Artificial Intelligence v1 Associate no Credly"
+    "Verify IBM Artificial Intelligence v1 Associate credential on Credly": "Verificar a credencial IBM Artificial Intelligence v1 Associate no Credly",
+    "Photos from IBM TechXchange 2026 in Atlanta": "Fotos do IBM TechXchange 2026 em Atlanta",
+    "Gustavo at the IBM TechXchange 2026 venue in Atlanta": "Gustavo no local do IBM TechXchange 2026 em Atlanta",
+    "OsBiruBob team at IBM TechXchange 2026": "Equipe OsBiruBob no IBM TechXchange 2026",
+    "Artificial Intelligence II articles": "Artigos de Inteligência Artificial II"
   }));
 
   const dynamicText = {

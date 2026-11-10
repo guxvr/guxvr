@@ -25,7 +25,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20261109-2" />
     <script>
       document.documentElement.classList.add('js');
     </script>
@@ -228,6 +228,35 @@
             </div>
           </article>
 
+          <div class="techxchange-gallery reveal" aria-label="Photos from IBM TechXchange 2026 in Atlanta">
+            <figure class="techxchange-photo techxchange-photo-featured">
+              <img
+                src="assets/events/ibm-techxchange-2026-atlanta.jpg"
+                alt="Gustavo at the IBM TechXchange 2026 venue in Atlanta"
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+              />
+              <figcaption>
+                <span>Atlanta · October 2026</span>
+                <strong>At IBM TechXchange 2026.</strong>
+              </figcaption>
+            </figure>
+
+            <figure class="techxchange-photo techxchange-photo-team">
+              <img
+                src="assets/events/osbirubob-techxchange-2026.jpg"
+                alt="OsBiruBob team at IBM TechXchange 2026"
+                loading="eager"
+                decoding="async"
+              />
+              <figcaption>
+                <span>OsBiruBob</span>
+                <strong>The hackathon-winning team in Atlanta.</strong>
+              </figcaption>
+            </figure>
+          </div>
+
            <a class="credential-panel reveal interactive-card" href="https://www.credly.com/badges/b7a9377f-bfa8-40fb-81f2-3b67e5ed50d9/linked_in_profile" target="_blank" rel="noopener noreferrer" aria-label="Verify IBM Artificial Intelligence v1 Associate credential on Credly">
              <div class="credential-mark" aria-hidden="true"><strong>IBM</strong><span>AI</span></div>
              <div class="credential-copy">
@@ -268,9 +297,14 @@
           <div class="project-subsection-heading reveal" data-project-heading data-category="ai data research">
             <div><span>Research series</span><h3>Artificial Intelligence II</h3></div>
             <p>Three reproducible studies moving from supervised learning to anomaly detection and retrieval-augmented generation.</p>
+            <nav class="article-index" aria-label="Artificial Intelligence II articles">
+              <a href="#article-1"><span>01</span> Computer vision</a>
+              <a href="#article-2"><span>02</span> Anomaly detection</a>
+              <a href="#article-3"><span>03</span> RAG and chunking</a>
+            </nav>
           </div>
 
-          <article class="project-featured reveal interactive-card" data-project data-category="ai data research">
+          <article class="project-featured reveal interactive-card" id="article-1" data-project data-category="ai data research">
             <div class="project-content">
               <div class="project-kicker">
                 <span>01</span>
@@ -326,7 +360,7 @@
           </article>
 
           <div class="project-grid research-grid">
-            <article class="project-card project-card-small article-card reveal interactive-card" data-project data-category="ai data research">
+            <article class="project-card project-card-small article-card reveal interactive-card" id="article-2" data-project data-category="ai data research">
               <div class="card-index">02</div>
               <div class="card-body">
                 <div class="project-kicker"><span>Article 2 · Anomaly detection</span></div>
@@ -342,7 +376,7 @@
               </div>
             </article>
 
-            <article class="project-card project-card-small article-card reveal interactive-card" data-project data-category="ai data research systems">
+            <article class="project-card project-card-small article-card reveal interactive-card" id="article-3" data-project data-category="ai data research systems">
               <div class="card-index">03</div>
               <div class="card-body">
                 <div class="project-kicker"><span>Article 3 · Retrieval-augmented generation</span></div>
@@ -617,7 +651,7 @@
       </div>
     </footer>
 
-    <script src="i18n.js"></script>
-    <script src="script.js"></script>
+    <script src="i18n.js?v=20261109"></script>
+    <script src="script.js?v=20261109"></script>
   </body>
 </html>
